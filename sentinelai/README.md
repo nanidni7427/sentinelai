@@ -20,7 +20,7 @@ ollama pull llama3
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
-```
+
 
 ### 3. Start the frontend
 ```bash
